@@ -4,10 +4,16 @@
     grid-template-columns: 1fr 2fr 1fr;
 }
 */
-
+body{
+    font-size: 18px;
+}
 .intro{
     float:left;
    width: 100%;
+   background-color: rgb(169, 201, 178);
+   margin: auto;
+   border: 2px solid white;
+   padding: 20px;
 }
 
 #zen-supporting{
