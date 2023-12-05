@@ -1,0 +1,21 @@
+/*
+.page-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+*/
+
+.intro{
+    float:left;
+   width: 100%;
+}
+
+#zen-supporting{
+    float:left;
+    width: 75%;
+}
+
+.sidebar{
+    float:left;
+    width: 25%;
+}
