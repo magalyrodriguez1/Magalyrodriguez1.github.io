@@ -8,7 +8,7 @@
 */
 body{
     font-size: 18px;
-    background-color:#3B5E3F;
+    background-image: url(images/plants-bg.jpg);
     color: white;
     font-family: 'Roboto Mono', monospace;
     margin: 20px;
@@ -16,10 +16,11 @@ body{
 
 .intro{
     float:left;
-   width: 100%;
-   background-color: rgb(169, 201, 178);
-   background-image: url(images/plants-bg.jpg);
+   width: 98%;
+   background-color: rgba(59, 94, 63,.8);
    margin: auto;
+   border: 1px solid white;
+   padding: 12px;
    color: #EBEBFF;
    font-family: 'Quicksand', sans-serif;
 }
@@ -31,16 +32,32 @@ body{
     color: #FFFD8A;
  }
     a:hover{
-        color:white;
-    }
-
-
+        
+    background-color: black;
+	border-radius: 5px;
+	text-decoration: underline;
+	transition-duration: 0.2s;
+	transition-property: background;
+}
+    
 #zen-supporting{
     float:left;
     width: 75%;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .sidebar{
     float:left;
-    width: 25%;
+    width: 24%;
+    margin:auto;
+    border-left: 1px solid white;
+    padding: 5px;
+    background-color: rgba(45, 72, 48, .7);
+
+}
+
+footer{
+    text-align: center;
+    word-spacing: 10px;
+    margin: 30px;
 }
