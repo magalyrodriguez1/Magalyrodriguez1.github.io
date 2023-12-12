@@ -1,23 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hedvig+Letters+Serif:opsz@12..24&family=Jost:wght@700&family=Kalnia:wght@300&display=swap');
 
-/*design link like buttons*/
-section{
-   
+
+body{
+    /*to allow space for text to breathe; easier to read*/
+    line-height: 145%;
+    background-color: #bbe5f2;
+    margin: auto;
+    padding: 15px;
+    /*creates fade in text when page is opened*/
+    animation: fadeIn 2s;
 }
 
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-weight: 400;
+}
+
+h1,h2{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+
+h3:first-letter{
+    font-size: 30px;
+}
+
+h3{
+    margin: 3px;
+    border: 2px dashed tan;
+    padding: 4px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Kalnia', serif;
+    font-weight: medium 500;
+    background-color: #faf8f5;
+}
+
+.summary{
+    background-color: #faf8f5;
+    margin-bottom:20px;
+    border: 3px dashed tan;
+    padding: 5px;
+
+    
+}
+
+#zen-preamble{
+    background-color: lightcyan;
+}
+/*
 #zen-explanation, #zen-preamble{
     float: left;
-    width:50%;
+    width: 49%;
+    background-color: lightcyan;
 }
 
 #zen-participation, #zen-benefits, #zen-requirements{
     float:left;
-    width:50%;
+    width:49%;
+    background-color: lightskyblue;
 }
 
 footer{
     text-align: center;
     word-spacing: 20px;
+    margin: 20px;
+   
 }
 
 
@@ -30,4 +85,31 @@ footer{
     float:left;
     width: 50%;
 }
+*/
 
+#zen-supporting{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: lightskyblue;
+}
+
+footer{
+    text-align: center;
+    word-spacing: 20px;
+    margin: 20px;
+    font-size:larger;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold 700;
+   
+}
+
+a:hover{
+        
+    background-color: gray;
+    margin: 10px;
+	border-radius: 2px;
+	text-decoration: underline;
+	transition-duration: 0.2s;
+	transition-property: background;
+    padding: 5px;
+}
