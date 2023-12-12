@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
+/*design link like buttons*/
+section{
+   
+}
+
+#zen-explanation, #zen-preamble{
+    float: left;
+    width:50%;
+}
+
+#zen-participation, #zen-benefits, #zen-requirements{
+    float:left;
+    width:50%;
+}
+
+footer{
+    text-align: center;
+    word-spacing: 20px;
+}
+
+
+#design-selection{
+    float:left;
+    width:50%;
+}
+
+#zen-resources, #design-archives{
+    float:left;
+    width: 50%;
+}
+
