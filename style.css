@@ -1,11 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono&display=swap');
 
-/*
-.page-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
-*/
 body{
     font-size: 18px;
     background-image: url(images/plants-bg.jpg);
@@ -16,23 +10,25 @@ body{
 
 .intro{
     float:left;
-   width: 98%;
-   background-color: rgba(59, 94, 63,.8);
-   margin: auto;
-   border: 1px solid white;
-   padding: 12px;
-   color: #EBEBFF;
-   font-family: 'Quicksand', sans-serif;
+    /* set width to 98% to allow for margin and padding space*/
+    width: 98%;
+    background-color: rgba(59, 94, 63,.8);
+    margin: auto;
+    border: 1px solid white;
+    padding: 12px;
+    color: #EBEBFF;
+    font-family: 'Quicksand', sans-serif;
 }
 
-    a:link{
+a:link{
     color:#FFFED6;
 }
-    a:visited{
+
+a:visited{
     color: #FFFD8A;
  }
-    a:hover{
-        
+
+a:hover{  
     background-color: black;
 	border-radius: 5px;
 	text-decoration: underline;

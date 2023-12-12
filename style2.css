@@ -52,6 +52,7 @@ h3{
 #zen-preamble{
     background-color: lightcyan;
 }
+
 /*used CSS grid to split the content in half*/
 #zen-supporting{
     display: grid;
